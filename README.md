@@ -98,5 +98,44 @@ if(reset)
 assign out=q;  
 endmodule
 ```
+## Observations
+![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Simulation%20Results/Final%20Output.jpg)
+
+## Steps to run generate NgVeri Model
+1. Open eSim
+2. Run NgVeri-Makerchip 
+3. Add top level verilog file in Makerchip Tab
+4. Click on NgVeri tab
+5. Add dependency files
+6. Click on Run Verilog to NgSpice Converter
+7. Debug if any errors
+8. Model created successfully
+
+## Steps to run this project
+1. Open a new terminal
+2. Clone this project using the following command:</br>
+```git clone https://github.com/PatelVatsalB21/Mixed_Signal_Frequency_Divider.git ```</br>
+3. Change directory:</br>
+```cd frequency_divider```</br>
+4. Run ngspice:</br>
+```ngspice Frequency_Divider.cir.out```</br>
+5. To run the project in eSim:
+
+  - Run eSim</br>
+  - Load the project</br>
+  - Open eeSchema</br>
+
+## Acknowlegdements
+- FOSSEE, IIT Bombay
+- Steve Hoover, Founder, Redwood EDA
+- Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
+- Sumanto Kar, eSim Team, FOSSEE
+
+## References
+[1] V. Sikarwar, N. Yadav and S. Akashe, "Design and analysis of CMOS ring oscillator using 45 nm technology," 2013 3rd IEEE International Advance Computing Conference (IACC), Ghaziabad, 2013, pp. 1491- 1495.
+
+[2] Sani M. Ismail, Saadmaan Rahman, Mohammed M. Rahman and Neelanjana S. Ferdous
+“A Design Scheme of Toggle Operation Based Johnson Counter with Efficient Clock Gating”, 2012 Fourth International Conference on Computational Intelligence, Modelling and Simulation 
+ 
 
 
