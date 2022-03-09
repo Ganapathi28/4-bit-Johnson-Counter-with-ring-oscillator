@@ -1,0 +1,7112 @@
+
+No compatibility mode selected!
+
+
+Circuit: * /home/ganapathisubramanian28/downloads/ganapathijohnsoncounter/johnsoncounter/johnsoncounter.cir
+
+Warning: Model issue on line 1 :
+  .model cmosp pmos (level=8 version=3.2 tnom=27 tox=4.1e-9 xj=1e-7 nch=4. ...
+unrecognized parameter (+) - ignored
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Checking parameters for BSIM 3.2 model cmosn
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Checking parameters for BSIM 3.2 model cmosp
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: v2: no DC value, transient time 0 value used
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+Note: Starting true gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Note: True gmin stepping completed
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net-_m1-pad1_                          1.71225
+net-_m1-pad2_                          1.71171
+net-_m2-pad3_                                5
+net-_m3-pad1_                           1.4795
+net-_u3-pad2_                                0
+clk                                   0.855853
+o3                                           0
+o2                                           0
+o1                                           0
+o0                                           0
+v2#branch                                    0
+v1#branch                         -0.000573283
+a2#branch_1_0                                0
+a2#branch_1_1                                0
+a2#branch_1_2                                0
+a2#branch_1_3                                0
+
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+
+No. of Data Rows : 15397
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+binary raw file "/home/ganapathisubramanian28/Downloads/ganapathijohnsoncounter/johnsoncounter/johnsoncounter.raw"
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Checking parameters for BSIM 3.2 model cmosn
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Checking parameters for BSIM 3.2 model cmosp
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: v2: no DC value, transient time 0 value used
+No. of Data Columns : 17     
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+Note: Starting true gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Note: True gmin stepping completed
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net-_m1-pad1_                          1.71225
+net-_m1-pad2_                          1.71171
+net-_m2-pad3_                                5
+net-_m3-pad1_                           1.4795
+net-_u3-pad2_                                0
+clk                                   0.855853
+o3                                           0
+o2                                           0
+o1                                           0
+o0                                           0
+v2#branch                                    0
+v1#branch                         -0.000573283
+a2#branch_1_0                                0
+a2#branch_1_1                                0
+a2#branch_1_2                                0
+a2#branch_1_3                                0
+
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=1
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=1
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=3
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=3
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=7
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=7
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=15
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=15
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=14
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=14
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=12
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=12
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=8
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=8
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=0
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=0
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=0
+reset=0
+out=1
+=============johnson : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+reset=0
+out=1
+
+Inside foo after eval.....
+clk=1
+reset=0
+out=3
+
+No. of Data Rows : 15397
+
+Total analysis time (seconds) = 1.21118
+
+Total CPU time (seconds) = 1.758 
+
+Total DRAM available = 257855.305 MB.
+DRAM currently available = 249768.375 MB.
+Maximum ngspice program size =   95.441 MB.
+Current ngspice program size =   18.105 MB.
+
+Shared ngspice pages =    9.598 MB.
+Text (code) pages =    6.285 MB.
+Stack = 0 bytes.
+Library pages =    9.062 MB.
+
