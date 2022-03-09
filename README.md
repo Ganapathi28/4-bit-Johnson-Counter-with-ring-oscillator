@@ -12,10 +12,6 @@ This repository presents the design of Johnson Counter using Ring Oscillator as 
   * [Verilator](#verilator)
 - [Circuit Diagram in eSim](#circuit-diagram-in-esim)
 - [Verilog Code](#verilog-code)
-- [Makerchip Code](#makerchip-code)
-- [Makerchip Plots](#makerchip-plots)
-- [Netlist](#netlist)
-- [NgSpice Plots](#ngspice-plots)
 - [Observations](#observations)
 - [Steps to run generate NgVeri Model](#steps-to-run-generate-ngveri-model)
 - [Steps to run this project](#steps-to-run-this-project)
@@ -72,4 +68,35 @@ https://www.veripool.org/verilator/
 ## Circuit Diagram in eSim
 The following is the schematic in eSim:
 ![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Simulation%20Results/circuitdiagram.jpg)
+
+## Verilog Code
+### Counter
+
+```
+`include "johnson.v"
+### Counter
+module johnson( out,reset,clk);
+input clk,reset;
+output [3:0] out;
+ 
+reg [3:0] q;
+ 
+always @(posedge clk)
+begin
+ 
+if(reset)
+ q<=4'd0;
+ else
+ 	begin 
+ 		q[3]<=q[2];
+  		q[2]<=q[1];
+  		q[1]<=q[0];
+   		q[0]<=(~q[3]);
+ 	end
+ end
+ 
+assign out=q;  
+endmodule
+```
+
 
