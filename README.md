@@ -29,3 +29,14 @@ This repository presents the design of Johnson Counter using Ring Oscillator as 
 In this design,a 4 bit Johnson counter is implemented using Verilog code and ring oscillator is implemented using CMOS logic.As computer system consists of sequential circuits mostly, it is very important to design sequential circuits effectively and flawlessly for ensuring least power dissipation and architectural simplicity.A Johnson counter is a modified ring counter in which the output from the last flip flop is inverted and fed back as an input to the first. It is also called as Inverse Feedback Counter or Twisted Ring Counter.
 
 ## Reference Circuit Diagram
+![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Reference%20Diagram/CMOS%20Ring%20oscillator.png)
+![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Reference%20Diagram/Johnson%20counter.png)
+## Reference Waveform
+![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Reference%20Diagram/Output%20Graph.jpg)
+
+## Circuit Details
+![image](https://github.com/PatelVatsalB21/Mixed_Signal_Frequency_Divider/blob/main/Documentation/Circuit%20images/frequency_divider.jpg)
+
+## Astable Multivibrator
+![image](https://github.com/PatelVatsalB21/Mixed_Signal_Frequency_Divider/blob/main/Documentation/Circuit%20images/astable_multivibrator.jpg)
+
