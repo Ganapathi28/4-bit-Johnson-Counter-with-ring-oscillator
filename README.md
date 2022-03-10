@@ -65,9 +65,6 @@ It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation
 It is a tool which converts Verilog code to C++ objects. Refer:
 https://www.veripool.org/verilator/
 
-## Circuit Diagram in eSim
-The following is the schematic in eSim:
-![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Simulation%20Results/circuitdiagram.jpg)
 
 ## Verilog Code
 ### Counter
